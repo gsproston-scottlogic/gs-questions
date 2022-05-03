@@ -9,10 +9,10 @@ import gs.questions.questions.SingleCharacterSearch;
 public class SingleCharacterSearchTest {
     @Test
     void singleCharacterSearchTest() {
-        assertEquals(SingleCharacterSearch.getFirstSingleChar(""), null);
-        assertEquals(SingleCharacterSearch.getFirstSingleChar(null), null);
-        assertEquals(SingleCharacterSearch.getFirstSingleChar("twotwo"), null);
-        assertEquals(SingleCharacterSearch.getFirstSingleChar("twoetwo"), 'e');
-        assertEquals(SingleCharacterSearch.getFirstSingleChar("tfwoetwojunk"), 'f');
+        assertEquals(null, SingleCharacterSearch.getFirstSingleChar(""));
+        assertEquals(null, SingleCharacterSearch.getFirstSingleChar(null));
+        assertEquals(null, SingleCharacterSearch.getFirstSingleChar("twotwo"));
+        assertEquals('e', SingleCharacterSearch.getFirstSingleChar("twoetwo"));
+        assertEquals('f', SingleCharacterSearch.getFirstSingleChar("tfwoetwojunk"));
     }
 }

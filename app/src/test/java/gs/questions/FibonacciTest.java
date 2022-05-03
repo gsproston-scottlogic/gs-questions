@@ -9,12 +9,12 @@ import gs.questions.questions.Fibonacci;
 public class FibonacciTest {
     @Test
     public void fibonacciTest() {
-        assertEquals(Fibonacci.getFibNum(0), null);
-        assertEquals(Fibonacci.getFibNum(1), 1);
-        assertEquals(Fibonacci.getFibNum(2), 1);
-        assertEquals(Fibonacci.getFibNum(3), 2);
-        assertEquals(Fibonacci.getFibNum(4), 3);
-        assertEquals(Fibonacci.getFibNum(5), 5);
-        assertEquals(Fibonacci.getFibNum(10), 55);
+        assertEquals(null, Fibonacci.getFibNum(0));
+        assertEquals(1, Fibonacci.getFibNum(1));
+        assertEquals(1, Fibonacci.getFibNum(2));
+        assertEquals(2, Fibonacci.getFibNum(3));
+        assertEquals(3, Fibonacci.getFibNum(4));
+        assertEquals(5, Fibonacci.getFibNum(5));
+        assertEquals(55, Fibonacci.getFibNum(10));
     }
 }

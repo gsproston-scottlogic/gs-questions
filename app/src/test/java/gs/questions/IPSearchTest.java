@@ -22,6 +22,6 @@ public class IPSearchTest {
                 null
         };
         final String ip = IPSearch.MostCommonIP(logs);
-        assertEquals(ip, "10.0.0.2");
+        assertEquals("10.0.0.2", ip);
     }
 }
