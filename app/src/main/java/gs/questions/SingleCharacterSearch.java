@@ -1,4 +1,4 @@
-package gs.questions.questions;
+package gs.questions;
 
 /*
 Take an input of a string and find the first character which only appears once in the string.

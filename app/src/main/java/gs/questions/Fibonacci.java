@@ -1,4 +1,4 @@
-package gs.questions.questions;
+package gs.questions;
 
 /*
 Implement a function fibonacci(int x) that returns the xth number in the fibonacci sequence. 

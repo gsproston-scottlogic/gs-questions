@@ -3,8 +3,6 @@ package gs.questions;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
-import gs.questions.questions.IPSearch;
-
 public class IPSearchTest {
     @Test
     void ipSearchTest() {
