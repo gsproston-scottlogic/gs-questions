@@ -18,7 +18,8 @@ public class IPSearchTest {
                 "Something else",
                 "Something else",
                 "",
-                "   "
+                "   ",
+                null
         };
         final String ip = IPSearch.MostCommonIP(logs);
         assertEquals(ip, "10.0.0.2");

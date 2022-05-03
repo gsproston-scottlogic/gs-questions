@@ -13,6 +13,11 @@ public class IPSearch {
         final Pattern pattern = Pattern.compile(patternStr);
         // loop over the logs
         for (String logEntry : logs) {
+            // null check
+            if (logEntry == null) {
+                // ignore
+                continue;
+            }
             // match the regex
             Matcher m = pattern.matcher(logEntry);
             if (m.find()) {
