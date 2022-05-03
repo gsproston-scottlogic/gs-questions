@@ -4,6 +4,13 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.HashMap;
 
+/* 
+Take an input of String[] similar to log statements and find which ip occurs most frequently. 
+The ip address is the first part of the string. 
+E.g. “10.0.0.1 – username Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
+Supplemental question was if there were multiple ip addresses with the same number of occurrences return the one that occurred first in the array.
+*/
+
 public class IPSearch {
     public static String MostCommonIP(String[] logs) {
         // maps IPs to the number of times they've occurred

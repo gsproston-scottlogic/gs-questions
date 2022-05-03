@@ -13,5 +13,6 @@ public class SingleCharacterSearchTest {
         assertEquals(SingleCharacterSearch.getFirstSingleChar(null), null);
         assertEquals(SingleCharacterSearch.getFirstSingleChar("twotwo"), null);
         assertEquals(SingleCharacterSearch.getFirstSingleChar("twoetwo"), 'e');
+        assertEquals(SingleCharacterSearch.getFirstSingleChar("tfwoetwojunk"), 'f');
     }
 }

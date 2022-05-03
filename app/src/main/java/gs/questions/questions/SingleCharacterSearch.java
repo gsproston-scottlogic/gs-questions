@@ -1,5 +1,9 @@
 package gs.questions.questions;
 
+/*
+Take an input of a string and find the first character which only appears once in the string.
+*/
+
 public class SingleCharacterSearch {
     public static Character getFirstSingleChar(String str) {
         // null check
