@@ -1,11 +1,11 @@
 package gs.questions;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
 import gs.questions.questions.IPSearch;
 
-class AppTest {
+public class IPSearchTest {
     @Test
     void ipSearchTest() {
         final String[] logs = {
@@ -14,6 +14,9 @@ class AppTest {
                 "10.0.0.3 – username Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                 "10.0.0.1 – username Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
                 "10.0.0.1 – username Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+                "Something else",
+                "Something else",
+                "Something else",
                 "",
                 "   "
         };
