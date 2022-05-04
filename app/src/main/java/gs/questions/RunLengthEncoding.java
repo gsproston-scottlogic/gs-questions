@@ -20,7 +20,7 @@ public class RunLengthEncoding {
                 if (runChar != null) {
                     // add the encoding
                     encodedString.append(runChar);
-                    encodedString.append(Integer.toString(runLength));
+                    encodedString.append(runLength);
                 }
                 runChar = c;
                 runLength = 1;
@@ -29,7 +29,7 @@ public class RunLengthEncoding {
         if (runChar != null) {
             // add the encoding
             encodedString.append(runChar);
-            encodedString.append(Integer.toString(runLength));
+            encodedString.append(runLength);
         }
         return encodedString.toString();
     }
