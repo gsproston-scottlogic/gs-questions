@@ -1,5 +1,10 @@
 package gs.questions;
 
+/*
+Given an array of non-negative integers and a target integer, 
+find the length of the shortest continuous subsequence such that the sum is greater than the target.
+*/
+
 public class SumsOfConsecutiveArrayElements {
     public static int getShortestLength(final int[] arr, final int target) {
         int bestLength = 0;

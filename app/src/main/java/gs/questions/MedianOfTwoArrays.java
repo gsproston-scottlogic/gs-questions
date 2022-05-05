@@ -1,5 +1,9 @@
 package gs.questions;
 
+/*
+Given two sorted int arrays find the median element.
+*/
+
 public class MedianOfTwoArrays {
     public static Double getMedian(int[] arr1, int[] arr2) {
         // check if the arrays are empty

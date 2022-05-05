@@ -1,5 +1,10 @@
 package gs.questions;
 
+/*
+Write a function that takes an array of numbers and returns the second lowest number in the array, 
+or zero if the length of the array is less than two.
+*/
+
 public class SecondLowestNumber {
     public static int getSecondLowestNumber(int[] numArr) {
         if (numArr.length < 2) {

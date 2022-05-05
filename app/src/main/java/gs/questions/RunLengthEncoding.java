@@ -1,5 +1,10 @@
 package gs.questions;
 
+/*
+Given a string of characters return the run length encoded version. #
+E.g. given the string “aabbbccddddaaa”, the return value would be “a2b3c2d4a3”.
+*/
+
 public class RunLengthEncoding {
     public static String getEncodedString(final String inputStr) {
         // null check

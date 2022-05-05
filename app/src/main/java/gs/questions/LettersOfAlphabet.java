@@ -1,5 +1,9 @@
 package gs.questions;
 
+/*
+Implement a function to determine which letters of the alphabet were missing from an input string.
+*/
+
 public class LettersOfAlphabet {
     public static String getMissingLetters(String str) {
         // string of missing letter which starts as all lowercase letters

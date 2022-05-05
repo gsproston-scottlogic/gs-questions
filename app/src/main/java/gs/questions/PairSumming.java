@@ -1,5 +1,10 @@
 package gs.questions;
 
+/*
+Write a function that counts how many pairs of numbers in an array add up to a given number. 
+Additional question was how to do this more efficiently.
+*/
+
 public class PairSumming {
     public static int getNumSummingPairs(final int[] numbers, final int sum) {
         int totalPairs = 0;

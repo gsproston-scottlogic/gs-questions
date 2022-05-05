@@ -1,5 +1,9 @@
 package gs.questions;
 
+/*
+Given a number x, write a function to determine if this is a power of 10. 
+*/
+
 public class PowersOfTen {
     public static boolean isPowerOfTen(int num) {
         boolean isPowerOfTen = false;

@@ -2,6 +2,13 @@ package gs.questions;
 
 import java.util.Arrays;
 
+/*
+Write a function that takes a string and returns 
+    the longest substring in that string made up of 
+    the same character and the index the substring starts on, 
+e.g. given the string “aabbbccddddaaa” the substring is “dddd” starting at index 7.
+*/
+
 public class LongestSubstring {
     public static String getLongestSubstring(final String input) {
         // null and empty check

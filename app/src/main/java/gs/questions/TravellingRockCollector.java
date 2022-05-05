@@ -1,5 +1,19 @@
 package gs.questions;
 
+/*
+You are a Rock Collector, and you are travelling from California to New York. 
+Along the way, you can pick up rocks from various cities. 
+These cities are stored as elements in Int[][]. 
+Figure out the path which will give you the most number of rocks between California, and New York. 
+You can only travel East or North, but you can change direction as many times as you wish. 
+California is the most south westerly (first element of last array) 
+and New York is the most north easterly (last element of first array).
+
+Also, the number of arrays can change, as well as the number of elements in each array. 
+However, the number of elements in each of the arrays will be the same. 
+So, you can have an array of 3 arrays of 5 elements, but all of the 3 arrays will have 5 elements.
+*/
+
 public class TravellingRockCollector {
     private static boolean validateMap(int[][] map) {
         if (map.length < 1)
